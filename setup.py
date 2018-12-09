@@ -31,5 +31,6 @@ setup(
         'Programming Language :: Python',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
         'Topic :: Software Development :: Libraries :: Python Modules'
-    ]
+    ],
+    entry_points={"console_scripts" : ["flaskpaynow=flaskpaynow.__main__:main"]},
 )
